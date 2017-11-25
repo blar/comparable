@@ -17,10 +17,10 @@ namespace Blar\Comparable;
 interface Comparable {
 
     /**
-     * @param Object $other
+     * @param mixed $other
      *
      * @return bool
      */
-    public function compareTo(Object $other): bool;
+    public function compareTo($other): bool;
 
 }
