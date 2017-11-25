@@ -1,0 +1,33 @@
+{
+    "name": "blar/comparable",
+    "description": "Comparable for PHP",
+    "type": "library",
+    "keywords": [
+        "php",
+        "comparable"
+    ],
+    "homepage": "https://github.com/blar/comparable/",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Andreas Treichel",
+            "email": "gmblar+github@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "satooshi/php-coveralls": "^1.0"
+    },
+    "support": {
+        "source": "https://github.com/blar/comparable/",
+        "issues": "https://github.com/blar/comparable/issues",
+        "wiki": "https://github.com/blar/comparable/wiki"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blar\\Comparable\\": "lib/Blar/Comparable/"
+        }
+    }
+}
